@@ -1,0 +1,22 @@
+#test{
+    width: 150px;
+    height: 150px;
+    background: orange;
+    margin: 0px auto;
+    border: '' solid black;
+    text-align: center;
+    line-height: 50%;
+}
+#out{
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+   }
+textarea{
+    border: 1px solid orange;
+}
+div h1{
+    line-height: 200px;
+    
+    
+}
