@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fetch API</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-4 mb-4">Fetch API</h1>
+    <div class="d-flex">    
+    <button class="btn btn-secondary mr-4" id="getText">Get Text</button> 
+    <button class="btn btn-secondary mr-4" id="getUsers">Get Users</button> 
+    <button class="btn btn-secondary mr-4" id="getPosts">Get API Data</button>
+    </div>
+    <hr>
+    <div id="output"></div> 
+
+    <form id="addPost">
+        <div>
+            <input type="text" id="title" placeholder="Title">
+        </div>
+        <div>
+            <textarea id="body" placeholder="Body"></textarea>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

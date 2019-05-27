@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+
+<body>
+    <div class="container">
+        <h1>My player!</h1>
+
+        <video width="400" height="300" poster="" id="video-player">
+            <source src="dogs&cats.mp4" type="video/mp4">
+        </video>
+
+        <div>
+            <progress id="progress" max="100" value="0"></progress>
+        </div>
+
+        <div>
+            <p id="out">0</p>
+        </div>
+
+        <div id="buttons">
+            <button id="play">Play</button>
+            <button id="pause">Pause</button>
+            <button id="stop">Stop</button>
+            <button id="speed-up">Faster</button>
+            <button id="speed-down">Lover</button>
+            <button id="speed-normal">Normal speed</button>
+            <input type="range" id="volume" min=0 max=100>Volume
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
